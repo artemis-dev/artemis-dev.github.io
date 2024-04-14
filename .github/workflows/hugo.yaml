@@ -54,7 +54,7 @@ jobs:
           node-version: 21
       - name: Install Node.js dependencies
 #        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-        run: npm intall
+        run: npm install
 
       - name: Build with Hugo
         env:
